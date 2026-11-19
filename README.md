@@ -5,6 +5,11 @@ MIT-licensed Felucca-Engines into the MPC Plugin Builder SDK. The original
 Felucca firmware targets the M-VAVE FM-1; this project is an independent MPC
 plugin adaptation, not the complete firmware.
 
+## Credits for Felucac and Felucca-Engines:
+https://github.com/hugelton/Felucca-Engines ( MIT )
+https://github.com/hugelton/Felucca ( GPL3.0 )
+>> Leo Kuroshita (@kurogedelic), Hügelton Instruments
+
 ## Features
 
 - Six selectable synthesis engines: ANALOG, LOFI, TRIO, WHEEL, NOISE and PHASE.
