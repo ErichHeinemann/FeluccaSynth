@@ -1,0 +1,109 @@
+{
+  "kit": "amber",
+  "pages": [
+    {
+      "name": "MAIN",
+      "controls": [
+        { "param": "Volume", "widget": "fader" },
+        { "param": "Engine", "widget": "slider", "overlay": "menu" },
+        { "param": "Attack", "widget": "fader" },
+        { "param": "Decay", "widget": "fader" },
+        { "param": "Sustain", "widget": "fader" },
+        { "param": "Release", "widget": "fader" },
+        { "param": "Bend", "widget": "knob" }
+      ]
+    },
+    {
+      "name": "ANALOG",
+      "controls": [
+        { "param": "A Filter", "widget": "switch" },
+        { "param": "A WAVE", "widget": "slider", "overlay": "menu" },
+        { "param": "A DTN", "widget": "knob" },
+        { "param": "A MIX", "widget": "fader" },
+        { "param": "A NOIS", "widget": "fader" },
+        { "param": "A CUT", "widget": "knob" },
+        { "param": "A RES", "widget": "fader" },
+        { "param": "A DRV", "widget": "fader" },
+        { "param": "A KTR", "widget": "fader" }
+      ]
+    },
+    {
+      "name": "LOFI",
+      "controls": [
+        { "param": "C CHIP", "widget": "slider", "overlay": "menu" },
+        { "param": "C WAVE", "widget": "slider", "overlay": "menu" },
+        { "param": "C DUTY", "widget": "knob" },
+        { "param": "C CRSH", "widget": "fader" },
+        { "param": "C SWP", "widget": "fader" },
+        { "param": "C VIB", "widget": "fader" },
+        { "param": "C TONE", "widget": "fader" }
+      ]
+    },
+    {
+      "name": "TRIO",
+      "controls": [
+        { "param": "T WAVE", "widget": "slider", "overlay": "menu" },
+        { "param": "T INT2", "widget": "knob", "polarity": "bipolar" },
+        { "param": "T INT3", "widget": "knob", "polarity": "bipolar" },
+        { "param": "T DTN", "widget": "knob" },
+        { "param": "T MODE", "widget": "switch" },
+        { "param": "T CUT", "widget": "knob" },
+        { "param": "T RES", "widget": "fader" },
+        { "param": "T PW", "widget": "knob" }
+      ]
+    },
+    {
+      "name": "WHEEL",
+      "controls": [
+        { "param": "W REG", "widget": "slider", "overlay": "menu" },
+        { "param": "W SUB", "widget": "knob", "polarity": "bipolar" },
+        { "param": "W BODY", "widget": "knob", "polarity": "bipolar" },
+        { "param": "W TOP", "widget": "knob", "polarity": "bipolar" },
+        { "param": "W PERC", "widget": "slider", "overlay": "menu" },
+        { "param": "W CLICK", "widget": "fader" },
+        { "param": "W DRV", "widget": "fader" },
+        { "param": "W ROTR", "widget": "switch" }
+      ]
+    },
+    {
+      "name": "NOISE",
+      "controls": [
+        { "param": "N MODE", "widget": "switch" },
+        { "param": "N COLR", "widget": "fader" },
+        { "param": "N FREQ", "widget": "knob" },
+        { "param": "N RES", "widget": "fader" },
+        { "param": "N TRK", "widget": "fader" },
+        { "param": "N DENS", "widget": "fader" },
+        { "param": "N DRFT", "widget": "fader" },
+        { "param": "N CRSH", "widget": "fader" }
+      ]
+    },
+    {
+      "name": "PHASE",
+      "controls": [
+        { "param": "P WAVE", "widget": "slider", "overlay": "menu" },
+        { "param": "P WAVE2", "widget": "slider", "overlay": "menu" },
+        { "param": "P DCW", "widget": "fader" },
+        { "param": "P ENV", "widget": "fader" },
+        { "param": "P DTN", "widget": "knob" },
+        { "param": "P LINE", "widget": "switch" },
+        { "param": "P SUB", "widget": "fader" },
+        { "param": "P FOLD", "widget": "fader" }
+      ]
+    },
+    {
+      "name": "EFFECTS",
+      "controls": [
+        { "param": "Dly Time", "widget": "knob" },
+        { "param": "Dly FB", "widget": "fader" },
+        { "param": "Dly HPF", "widget": "knob" },
+        { "param": "Dly LPF", "widget": "knob" },
+        { "param": "Dly Mix", "widget": "fader" },
+        { "param": "Ping Pong", "widget": "switch" },
+        { "param": "Rev Mix", "widget": "fader" },
+        { "param": "Rev Size", "widget": "knob" },
+        { "param": "Rev Damp", "widget": "knob" }
+      ]
+    }
+  ]
+}
